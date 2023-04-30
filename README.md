@@ -8,7 +8,8 @@
 - To run this script, run the following command
 
 ```bash
+  cd ..
+  git clone -b btlg https://github.com/Aghisna-Project/aghisna_stuff.git btlg
   cd btlg
-  git clone -b btlg https://github.com/Aghisna-Project/aghisna_stuff.git .
   bash ./otw.sh
 ```
