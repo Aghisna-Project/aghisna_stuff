@@ -9,7 +9,8 @@
 
 ```bash
   cd ..
-  git clone -b btlg https://github.com/Aghisna-Project/aghisna_stuff.git btlg
+  git clone -b btlg https://github.com/Aghisna-Project/aghisna_stuff.git sc
+  cp cp/otw.sh btlg/otw.sh
   cd btlg
   bash ./otw.sh
 ```
