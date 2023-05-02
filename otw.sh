@@ -32,6 +32,7 @@ echo "==================="
 git clone --depth=1 https://gitlab.com/GhostMaster69-dev/cosmic-clang -b master prebuilts/clang/host/linux-x86/clang-playground
 git clone --depth=1 https://github.com/Aghisna-Project/android_hardware_xiaomi hardware/xiaomi
 git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_livedisplay hardware/lineage
+git clone --depth=1 https://github.com/LineageOS/android_packages_resources_devicesettings.git -b lineage-20.0 packages/resources/devicesettings
 sleep 4
 echo " "
 echo "cloning selesai untuk rom bootleggers"
