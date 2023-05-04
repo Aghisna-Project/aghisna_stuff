@@ -13,11 +13,7 @@ git clone --depth=1 https://github.com/Aghisna-Project/android_device_xiaomi_sm6
 sleep 4
 echo "==================="
 # cloning Vendor tree
-git clone --depth=1 https://github.com/Aghisna-Project/proprietary_vendor_xiaomi_sweet.git vendor/xiaomi/sweet
-sleep 4
-echo "==================="
-# cloning Vendor tree common
-git clone --depth=1 https://github.com/Aghisna-Project/proprietary_vendor_xiaomi_sm6150-common.git vendor/xiaomi/sm6150-common
+https://github.com/Aghisna-Project/vendor_xiaomi.git -b btlg device/xiaomi
 sleep 4
 echo "==================="
 # cloning kernel tree
